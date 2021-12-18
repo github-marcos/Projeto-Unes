@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+*{ 
+    margin: 0px;
+padding: 0px;
+}
+
+body{
+    background-image: url('arquivos-necessarios-projetos-unes/fundo.png');
+    background-repeat: repeat-x;
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+}
+header{
+padding: 20px 0 5px 0;
+}
+
+header > div{
+text-align: right;
+text-decoration: none;
+padding-right: 15%;
+}
+
+div > a{
+text-decoration: none;
+color: blue;
+padding-right: 2px;
+}
+
+div :hover{
+text-decoration: underline;
+
+}
+
+main{
+padding: 0 20% 0 20%;
+}
+
+main#contato{
+    padding-top: 60px;
+}
+
+h1{
+    padding-bottom: 5px;
+}
+
+h2{
+    padding: 8px 0 8px 0;
+}
+
+article{
+    width: 900px;
+text-align: justify;
+padding-bottom: 18px;
+
+}
+ ol{
+    text-align: justify;
+    position: right;
+    padding-left: 20px;
+}
+
+footer{
+text-align: center;
+padding: 40px 0 20px 0;
+}
